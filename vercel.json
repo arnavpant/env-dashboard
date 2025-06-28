@@ -1,7 +1,8 @@
 {
+    "version": 2,
     "functions": {
       "api/aggregate.ts": {
-        "runtime": "@vercel/node"
+        "runtime": "nodejs@20.x"
       }
     },
     "rewrites": [
