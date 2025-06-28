@@ -1,6 +1,14 @@
 {
+    "functions": {
+      "api/aggregate.ts": {
+        "runtime": "@vercel/node"
+      }
+    },
     "rewrites": [
-      { "source": "/api/(.*)", "destination": "/api/aggregate.ts" }
+      {
+        "source": "/api/(.*)",
+        "destination": "/api/$1"
+      }
     ]
   }
   
